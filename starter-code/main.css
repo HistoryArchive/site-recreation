@@ -11,41 +11,76 @@ h1, h2 {
   margin: 0;
 }
 img {
+	margin: 0 auto;
+	border-style: dotted;
+	padding: 5px;
+	border-color: blue;
+	margin: right;
 
 }
 input {
 
 }
 button {
+	border-radius: 15px;
+	padding: 5px;
 
 }
 nav ul {
+	display: block;
 
 }
 nav ul li {
+float: left;
+margin: 0 30px;
+list-style: none;
+
 
 }
 .header {
+	background-color: lightblue;
 
 }
 .header h1 {
+ display: inline-block;
+  margin: 30px 0 0 0;
+  vertical-align: top;
 
 }
 .footer {
+	background-color: grey;
+	padding: 0 0 80px 0;
+
 
 }
 .content {
+	padding: 30px;
 
 }
 .row {
-
+  margin-top: 20px;
 }
 .column {
+	display: inline-block;
+	margin: 20px;
+	width:20%;
+	vertical-align: top;
 
 }
 .note {
+	background-color: blue;
+	color: white;
+
 
 }
 .request {
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
 
+
+}
+.note, .request {
+  min-height: 180px;
+  padding: 10px 20px;
 }
